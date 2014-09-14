@@ -7,6 +7,7 @@
 
 //#include <stdio.h>
 #include <cstdlib>
+#include <iostream>
 #include <sys/time.h>
 
 static void TraditionalMergeSort(int A[], int p, int r);

@@ -6,6 +6,14 @@
  */
 
 #include <climits>
+#include <iostream>
+#include <algorithm>
+#include <string>
+#include <sstream>
+#include <iterator>
+#include <vector>
+
+#include <sys/time.h>
 
 #include "DuplicatedPermutation.h"
 #include "MergeSort.h"
