@@ -2,7 +2,7 @@
  * MergeSort.h
  *
  *  Created on: Sep 13, 2014
- *      Author: evangileon
+ *      Author: Jun Yu
  */
 
 #ifndef MERGESORT_H_

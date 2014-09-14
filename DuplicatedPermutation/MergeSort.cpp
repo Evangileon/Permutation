@@ -134,21 +134,21 @@ static void AlternateAuxiliaryMerge(int src[], int dest[], int p, int q,
 }
 
 void usage() {
-	printf("./MergeSort n\n");
+	std::cout << "./MergeSort n\n";
 }
 
 static void printArray(int arr[], int n) {
 	int k = 0;
 	for (k = 0; k < n; ++k) {
-		printf("%d ", arr[k]);
+		std::cout << arr[k];
 	}
 }
 
 #define PRINT_ARRAY(arr, len) \
 	do { \
-		printf("%s = { ", #arr); \
+		std::cout << #arr << " = { "; \
 		printArray(arr, len); \
-		printf("}\n"); \
+		std::cout << "}\n"; \
 	} while(0)
 
 void AlternateAuxiliaryMergeSort(int **A_ptr, int n) {
@@ -164,4 +164,7 @@ void AlternateAuxiliaryMergeSort(int **A_ptr, int n) {
 		B = swap;
 	}
 	delete [] B;
+	if(n < 0) {
+		printArray(*A_ptr, n);
+	}
 }

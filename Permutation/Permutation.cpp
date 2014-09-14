@@ -2,7 +2,7 @@
  * Permutation.cpp
  *
  *  Created on: Sep 13, 2014
- *      Author: evangileon
+ *      Author: Jun Yu
  */
 
 #include <vector>
